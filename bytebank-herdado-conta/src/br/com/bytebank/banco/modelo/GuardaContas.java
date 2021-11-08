@@ -2,15 +2,15 @@ package br.com.bytebank.banco.modelo;
 
 public class GuardaContas {
 
-    private Conta[] referencias;
+    private Object[] referencias;
     private int posicao;
 
     public GuardaContas() {
-        this.referencias = new Conta[10];
+        this.referencias = new Object[10];
         this.posicao = 0;
     }
 
-    public void addConta(Conta novaConta) {
+    public void addConta(Object novaConta) {
         referencias[this.posicao] = novaConta;
         this.posicao++;
     }
@@ -19,11 +19,11 @@ public class GuardaContas {
         return this.posicao;
     }
 
-    public Conta getReferencia(int pos) {
+    public Object getReferencia(int pos) {
         return this.referencias[pos];
     }
 
-    public void trocaConta(int pos, Conta novaConta) {
+    public void trocaConta(int pos, Object novaConta) {
         this.referencias[pos] = novaConta;
     }
 

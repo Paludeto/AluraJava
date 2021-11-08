@@ -16,13 +16,13 @@ public class TesteGuardaContas {
         Conta cc3 = new ContaCorrente(33, 44);
         guardador.trocaConta(1, cc3);
 
-        Conta referencia1 = guardador.getReferencia(1);
-        System.out.println(referencia1.getNumero());
+        Object referencia1 = guardador.getQuantidade();
+        System.out.println(referencia1);
 
         int tamanho = guardador.getQuantidade();
         System.out.println(tamanho);
 
-        Conta referencia2 = guardador.getReferencia(0);
+        Conta referencia2 = (Conta) guardador.getReferencia(0);
         System.out.println(referencia2.getNumero());
 
     }
