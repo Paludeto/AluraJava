@@ -1,13 +1,13 @@
 package br.com.bytebank.banco.teste;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
-
 import java.util.ArrayList;
+import java.util.List;
 
 public class TesteArrayListEquals {
 
     public static void main(String[] args) {
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        List<Conta> lista = new ArrayList<Conta>();
 
         Conta cc1 = new ContaCorrente(11, 33);
         Conta cc2 = new ContaCorrente(22, 44);
