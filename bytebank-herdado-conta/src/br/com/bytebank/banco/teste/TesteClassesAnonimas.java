@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class TesteClassesAnonimas {
+public class        TesteClassesAnonimas {
     public static void main(String[] args) {
 
         Conta cc1 = new ContaCorrente(22, 33);

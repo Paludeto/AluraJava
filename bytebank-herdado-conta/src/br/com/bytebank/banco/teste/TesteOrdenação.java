@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class TesteOrdenação {
+public class        TesteOrdenação {
 
     public static void main(String[] args) {
 
